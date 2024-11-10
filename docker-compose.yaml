@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: iemafzal/spring_boot_bankapp:tagname
+    image: iemafzal/node-app:tagname
     ports:
       - "8000:8000"
