@@ -2,6 +2,8 @@ version: '3.9'
 
 services:
   web:
-    image: iemafzal/node-app:tagname
+    image: node-app  # Use the local image name
+    build: .         # Optionally, you can specify the build context if needed
     ports:
       - "8000:8000"
+
